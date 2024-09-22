@@ -1,3 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE settings
+.vscode/
+.idea/
+
+# Environment variables
 .env
 
-node_modules
+# Docker and build files (if applicable)
+*.sqlite3
+build/
+dist/
+
+node_modules/
